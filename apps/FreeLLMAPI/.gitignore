@@ -1,0 +1,40 @@
+node_modules/
+dist/
+server/data/
+*.db
+*.db-wal
+*.db-shm
+*.bak
+.env
+.env.local
+.DS_Store
+
+# Personal deployment scripts (contain keys/credentials — kept local)
+deploy-pi.sh
+update-hermes.sh
+# Python
+.venv/
+__pycache__/
+
+# Node
+node_modules/
+
+# Secrets
+.env
+.env.*
+
+# Databases
+*.db
+
+# Logs
+*.log
+
+# Local models
+models/
+
+# FreeLLMAPI runtime
+apps/FreeLLMAPI/server/data/
+
+# Workspace
+workspace/*
+!workspace/.gitkeep
