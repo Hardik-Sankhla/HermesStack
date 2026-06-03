@@ -1,0 +1,12 @@
+[project]
+name = "hermesstack"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "anthropic>=0.105.2",
+    "fastapi>=0.136.3",
+    "httpx>=0.28.1",
+    "openai>=2.40.0",
+]
