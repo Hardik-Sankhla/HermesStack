@@ -1,45 +1,63 @@
 # HermesStack
 
-Portable AI workstation for low-cost AI development.
+Portable AI Workstation for Android, Termux, Ubuntu, and Low-Cost Hardware.
 
-## Components
+## Vision
 
-* FreeLLMAPI
+HermesStack aims to provide a portable AI workstation capable of running:
+
 * Hermes Agent
+* FreeLLMAPI
 * Hermes WebUI
 * MCP Servers
-* Local Models
+* Automation Workflows
+* Monitoring Tools
+* Local Models (optional)
 
-## Supported Platforms
+on resource-constrained hardware such as Android phones, laptops, mini PCs, and cloud servers.
 
-* Ubuntu
-* Termux
-* Windows
-* ARM64 devices
+## Current Status
 
-## Quick Start
+### v0.1.0
 
-```bash
-git clone <repo>
-cd HermesStack
-./scripts/install.sh
-./scripts/start.sh
+Completed:
+
+* Ubuntu running in Termux via proot-distro
+* Node.js environment configured
+* FreeLLMAPI successfully deployed
+* GitHub repository initialized
+* UV-based Python environment created
+
+Planned:
+
+* Hermes Agent integration
+* Hermes WebUI integration
+* MCP server collection
+* Unified startup scripts
+* Monitoring stack
+* Automated installer
+
+## Project Structure
+
+```text
+HermesStack/
+├── apps/
+├── mcp/
+├── scripts/
+├── environments/
+├── workspace/
+├── monitoring/
+├── automation/
+├── models/
+└── backups/
 ```
 
 ## Goals
 
-* Run AI agents on low-cost hardware
-* Provide OpenAI-compatible endpoints
-* Support MCP tools
-* Work on mobile devices
-* Remain fully open source
+* Low-cost AI workstation
+* API-first architecture
+* Portable deployment
+* Reproducible environments
+* Community-friendly setup
+* Open-source tooling
 
-## Roadmap
-
-* [x] Ubuntu on Android
-* [x] FreeLLMAPI
-* [ ] Hermes Agent
-* [ ] MCP Integration
-* [ ] Multi-Agent Support
-* [ ] Local LLM Support
-* [ ] Monitoring Dashboard
