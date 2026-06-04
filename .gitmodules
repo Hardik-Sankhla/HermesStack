@@ -1,0 +1,3 @@
+[submodule "apps/apps/Hermes-Agent"]
+	path = apps/apps/Hermes-Agent
+	url = git@github.com:NousResearch/hermes-agent.git
