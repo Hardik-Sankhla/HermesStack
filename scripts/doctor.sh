@@ -26,10 +26,10 @@ echo
 
 echo "[Hermes Agent]"
 
-if command -v hermes >/dev/null 2>&1; then
-    hermes --version
+if [ -x "apps/Hermes-Agent/venv/bin/hermes" ]; then
+    apps/Hermes-Agent/venv/bin/hermes --version
 else
-    echo "Hermes not found"
+    echo "Hermes not installed"
 fi
 
 echo
