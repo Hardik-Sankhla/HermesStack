@@ -31,3 +31,11 @@ server/data/
 .idea/
 
 logs/
+freellmapi.log
+**/node_modules/
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.db
+workspace/logs/
+workspace/benchmarks/

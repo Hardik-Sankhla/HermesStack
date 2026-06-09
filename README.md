@@ -61,3 +61,14 @@ HermesStack/
 * Community-friendly setup
 * Open-source tooling
 
+## Installation Guide
+
+```Bash
+git clone --recursive git@github.com:Hardik-Sankhla/HermesStack.git
+
+cd HermesStack
+
+./scripts/install.sh
+
+./scripts/start.sh
+```
